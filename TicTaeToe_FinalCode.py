@@ -223,7 +223,7 @@ while True:
                     break
 
                 else:
-                    #board is not full and you don't have 3 in a row so it's player 2 turn
+                    #board is not full and you don't have 3 in a row so it's player 1 turn
                     turn = "Player 1 goes"
 
     if not replay(): #break out of outer loop
