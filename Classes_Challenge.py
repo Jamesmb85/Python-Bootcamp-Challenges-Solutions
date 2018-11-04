@@ -32,7 +32,7 @@ class Account:
 
     def withdraw(self, amount):
         if(amount > self.balance):
-            print("You can'y withdraw more than what is in your account\n")
+            print("You can't withdraw more than what is in your account\n")
         else:
             self.balance -= amount
             print("{} was just withdrawn".format(amount))
