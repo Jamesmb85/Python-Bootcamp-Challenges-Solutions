@@ -96,7 +96,7 @@ class Hand:
     def adjust_for_ace(self):
         #if the sum of the cards in your hand is greater than 21 and you have an Ace, we need to change it's value to a 1
         if(self.value > 21 and "Ace" in self.cards):
-            self.value -= 11
+            self.value -= 10
 
         #track aces
         self.aces -= 1
